@@ -1,0 +1,34 @@
+{
+  "name": "trello-react-power-up",
+  "version": "0.0.1",
+  "description": "A sample Trello Power-Up that can be used as a starting point for your own awesome Power-Up.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack && node index.js"
+  },
+  "author": "",
+  "repository": {
+    "url": "https://glitch.com/edit/#!/trello-react-power-up"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "6.10.x"
+  },
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.15.3",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "prop-types": "^15.5.10",
+    "webpack": "^2.6.1",
+    "html-webpack-plugin": "^2.29.0",
+    "cors": "^2.8.4",
+    "glob": "^7.1.2",
+    "compression": "^1.7.0",
+    "styled-components": "^2.1.1"
+  }
+}
